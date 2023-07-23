@@ -71,9 +71,7 @@ elif oooo =='4' :
      os.system('apt upgrade')
      os.system('git clone https://github.com/KasRoudra/PyPhisher')
      os.system('cd PyPhisher')
-     os.system('pip3 install -r files/requirements.txt --break-system-packages')
-     os.system('python3 pyphisher.py')
-     print('the pyphisher Installed √ H-TOOL')
+     os.system('pip3 install -r files/requirements.txt')
 ##kali netunter
 elif oooo =='5' :
      print("install Kali Netunter in termux H-TOOL")
@@ -86,93 +84,58 @@ elif oooo =='5' :
 ##yarb ddos insall
 elif oooo =='6' :
      print('Install Yrab DDoS in termux H-TOOL')
-     os.system('cd $HOME')
      os.system("git clone https://github.com/bohaydar/yarb-ddos.git")
-     os.system("cd yarb-ddos")
-     os.system("pip install -r requirements.txt")
-     os.system("pip install termcolor")
-     os.system("python3 yarb.ddos.py")
 ##install red hawk
 elif oooo =='7' :
      print('install red hawk in termux H-TOOL')
-     os.system("cd $HOME")
      os.system("apt install git")
      os.system("git clone https://github.com/Tuhinshubhra/RED_HAWK.git")
-     os.system("cd RED_HAWK")
-     os.system("chmod +x rhawk.php")
-     os.system("apt install php")
-     os.system("php rhawk.php")
+
 ##install facsyte
 elif oooo =='8' :
      print('install fsociety in termux H-TOOL')
-     os.system('cd $HOME')
      os.system('pkg install wget -y')
      os.system('git clone https://github.com/Manisso/fsociety.git')
-     os.system('cd fsociety')
-     os.system('chmod +x install.sh ')
-     os.system('python2 fsociety.py')
+
 #install osif
 elif oooo== '9' :
      print('install osif in termux H-TOOL')
-     os.system('cd $HOME')
      os.system('git clone https://github.com/ciku370/OSIF')
      os.system('cd osif')
      os.system('pip2 install -r requirements.txt')
-     os.system('python2 osif.py')
 ####admin fund
 elif oooo =='10' :
      print('install Admin Faund in termux H-TOOL')
-     os.system('cd $HOME')
      os.system('git clone https://github.com/mishakorzik/AdminHack')
-     os.system('cd AdminHack')
-     os.system('bash setup.sh')
 ##cam hack
 elif oooo == '11' :
      print('install Cam hack in termux H-TOOL')
-     os.system('cd $HOME')
      os.system('git clone https://github.com/OnlineHacKing/CameraHack ')
-     os.system('cd CameraHack')
-     os.system('bash CamHack')
+
 ##gohst track
 elif oooo == '12' :
      print('install GhostTR in termux H-TOOL')
-     os.system('cd $HOME')
      os.system('git clone https://github.com/HunxByts/GhostTrack.git')
-     os.system('cd GhostTrack')
-     os.system('pip3 install -r requirements.txt')
-     os.system('python3 GhostTR.py')
 ##App visrus
 elif oooo =='14' :
      print('install app virus H-TOOL ')
      os.system('cd $HOME')
      os.system('git clone https://github.com/GH05T-HUNTER5/selfkiller')
-     os.system('bash selfkiller.sh')
 ##git info
 elif oooo =='13' :
      print('install gut info in termux H-TOOL')
      os.system('cd $HOME')
      os.system('git clone https://github.com/majidtdeni666/getinfo')
-     os.system('cd getinfo')
-     os.system('chmod +x install.sh')
-     os.system('bash install.sh')
-     os.system('python get.py')
 ##bo_hyd_cat install
 elif oooo =='15' :
      print('install bo hyd cat in termux H-TOOL')
      os.system('cd $HOME')
      os.system('git clone https://github.com/bohaydar/bo_hyd_cat.git')
-     os.system('cd bo_hyd_cat')
-     os.system('pip install requests')
-     os.system('python bo_cat. py')
 #### parrot banner
 elif oooo =='16' :
      print('install parrot banner in termux H-TOOL')
      os.system('cd $HOME')
      os.system('git clone https://github.com/termuxprofessor/parrotshell')
-     os.system('cd parrotshell')
-     os.system('chmod +x ')
-     os.system('bash install.sh')
-     os.system('Yes')
 ##information
 elif oooo =='0' :
      print ('''thes tool by bo haydar All rights reserved Free Palestine
